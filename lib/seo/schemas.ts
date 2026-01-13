@@ -54,7 +54,7 @@ export function generateLocalBusinessSchema(): LocalBusinessSchema {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     name: BUSINESS_INFO.legalName,
-    image: `${baseUrl}/images/optimized/logo-principal.webp`,
+    image: `${baseUrl}/images/logo-principal.png`,
     '@id': baseUrl,
     url: baseUrl,
     telephone: BUSINESS_INFO.contact.telephone,
@@ -141,7 +141,7 @@ export function generateAttorneySchema(): PersonSchema {
     telephone: BUSINESS_INFO.contact.telephone,
     email: BUSINESS_INFO.contact.email,
     url: `${baseUrl}/sobre-mi`,
-    image: `${baseUrl}/images/optimized/abogada.webp`,
+    image: `${baseUrl}/images/abogada.jpg`,
   };
 }
 
