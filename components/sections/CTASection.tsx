@@ -10,7 +10,7 @@ import { trackWhatsAppClick, trackConsultationInitiate } from '@/lib/tracking/ev
 export default function CTASection() {
   const handleAgendarClick = () => {
     // Track consultation initiation
-    trackConsultationInitiate('palabra-justa', 150000);
+    trackConsultationInitiate('palabra_justa', 150000);
     trackWhatsAppClick('cta_section', '¡Hola! Me gustaría agendar una asesoría.');
     window.open(generateWhatsAppLink(CONTACT_INFO.whatsapp, '¡Hola! Me gustaría agendar una asesoría.'), '_blank');
   };

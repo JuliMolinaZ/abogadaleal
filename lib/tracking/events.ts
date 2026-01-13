@@ -330,7 +330,7 @@ export function generateWhatsAppMessage(
  */
 export function getPlanInfo(planType: PlanType): { name: string; value: number } {
   const plans = {
-    'palabra-justa': { name: 'Asesoría Palabra Justa', value: 150000 },
+    'palabra_justa': { name: 'Asesoría Palabra Justa', value: 150000 },
     'diagnostico_legal': { name: 'Diagnóstico Legal', value: 150000 },
     'basica': { name: 'Consulta Básica', value: 100000 },
   };
