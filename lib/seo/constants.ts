@@ -133,12 +133,12 @@ export const CANONICAL_URLS = {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 export const OG_IMAGES = {
-  home: '/images/optimized/og-home.jpg',
-  servicios: '/images/optimized/og-servicios.jpg',
-  asesorias: '/images/optimized/og-asesorias.jpg',
-  sobreMi: '/images/optimized/og-about.jpg',
-  contacto: '/images/optimized/og-image.jpg', // Default
-  default: '/images/optimized/og-image.jpg',
+  home: '/images/logo-principal.png',
+  servicios: '/images/logo-principal.png',
+  asesorias: '/images/logo-principal.png',
+  sobreMi: '/images/logo-principal.png',
+  contacto: '/images/logo-principal.png',
+  default: '/images/logo-principal.png',
 } as const;
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -184,6 +184,6 @@ export const SEO_METADATA = {
   title: 'Abogada Leal | Soluciones Legales Claras - Penal, Familia, Tránsito | Pereira',
   description: 'Soluciones legales claras donde otros ven problemas. Especializada en Derecho Penal, Familia y Tránsito en Pereira, Colombia. Asesoría directa, sin rodeos.',
   keywords: 'abogada Pereira, asesoría legal Colombia, derecho penal, derecho familia, derecho tránsito, abogada Camila López, servicios jurídicos Pereira',
-  ogImage: '/og-image.jpg',
+  ogImage: '/images/logo-principal.png',
   url: 'https://abogadaleal.com',
 } as const;
