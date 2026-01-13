@@ -31,8 +31,19 @@ const cormorant = Cormorant_Garamond({
   weight: ['300', '400', '500', '600', '700'],
 });
 
+// Obtener URL base dinámicamente
+const getBaseUrl = () => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return 'https://abogadaleal.com';
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL(SEO_METADATA.url),
+  metadataBase: new URL(getBaseUrl()),
   title: {
     default: SEO_METADATA.title,
     template: '%s | Abogada Leal',

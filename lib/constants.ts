@@ -185,5 +185,5 @@ export const SEO_METADATA = {
   description: 'Soluciones legales claras donde otros ven problemas. Especializada en Derecho Penal, Familia y Tránsito en Pereira, Colombia. Asesoría directa, sin rodeos.',
   keywords: 'abogada Pereira, asesoría legal Colombia, derecho penal, derecho familia, derecho tránsito, abogada Camila López, servicios jurídicos Pereira',
   ogImage: '/images/logo-principal.png',
-  url: 'https://abogadaleal.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://abogadaleal.com',
 } as const;
