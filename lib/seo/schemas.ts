@@ -75,7 +75,7 @@ export function generateLocalBusinessSchema(): LocalBusinessSchema {
     },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: BUSINESS_INFO.openingHours.dayOfWeek,
+      dayOfWeek: [...BUSINESS_INFO.openingHours.dayOfWeek],
       opens: BUSINESS_INFO.openingHours.opens,
       closes: BUSINESS_INFO.openingHours.closes,
     },
@@ -131,7 +131,7 @@ export function generateAttorneySchema(): PersonSchema {
       '@type': 'LegalService',
       name: BUSINESS_INFO.name,
     },
-    knowsAbout: ATTORNEY_INFO.knowsAbout,
+    knowsAbout: [...ATTORNEY_INFO.knowsAbout],
     address: {
       '@type': 'PostalAddress',
       addressLocality: BUSINESS_INFO.address.addressLocality,
